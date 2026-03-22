@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  font-family: "IBM Plex Sans", "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.6;
+  background:
+    radial-gradient(circle at 8% -10%, rgba(23, 158, 255, 0.2), transparent 28%),
+    radial-gradient(circle at 94% 18%, rgba(0, 194, 168, 0.16), transparent 28%),
+    radial-gradient(circle at 48% 110%, rgba(255, 186, 66, 0.16), transparent 35%),
+    linear-gradient(180deg, #f9fdff, #f4fbff 36%, #eef9ff);
+  color: #173c59;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Mono", "Consolas", "Courier New", monospace;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
